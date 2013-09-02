@@ -1,0 +1,3 @@
+ssc_media_gst_utils.lo: ssc_media_gst_utils.c ../config.h
+
+../config.h:

@@ -1,0 +1,3 @@
+ssc_media_nice.lo: ssc_media_nice.c ../config.h
+
+../config.h:

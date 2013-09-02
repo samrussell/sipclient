@@ -1,0 +1,3 @@
+nice_local.lo: nice_local.c ../config.h
+
+../config.h:
