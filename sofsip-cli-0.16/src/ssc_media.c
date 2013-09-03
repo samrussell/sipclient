@@ -361,7 +361,7 @@ static int priv_static_capabilities_base(SscMedia *sscm, char **dest)
     //*dest = g_strdup("v=0\nm=audio 0 RTP/AVP 0\na=rtpmap:0 PCMU/8000");
     // sam edit
     // let it do video too so we can start sending
-    *dest = g_strdup("v=0\nm=audio 0 RTP/AVP 0\na=rtpmap:0 PCMU/8000\nm=video 411111 RTP/AVP 99\na=rtpmap:99 h264/90000");
+    *dest = g_strdup("v=0\nm=audio 0 RTP/AVP 0\na=rtpmap:0 PCMU/8000\nm=video 41111 RTP/AVP 98\na=rtpmap:98 h263-1998/90000");
 
 
   return 0;

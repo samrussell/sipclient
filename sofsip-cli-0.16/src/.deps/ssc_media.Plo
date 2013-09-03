@@ -1,15 +1,14 @@
 ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
- /usr/include/features.h /usr/include/stdc-predef.h \
- /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/predefs.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -17,8 +16,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string.h \
  /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -30,7 +28,6 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -39,13 +36,13 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.7/include/float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/float.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
  /usr/include/glib-2.0/glib/garray.h \
  /usr/include/glib-2.0/glib/gasyncqueue.h \
@@ -74,7 +71,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/glib-2.0/glib/gfileutils.h \
  /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h \
  /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h \
- /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h \
+ /usr/include/glib-2.0/glib/ghmac.h \
  /usr/include/glib-2.0/glib/gchecksum.h \
  /usr/include/glib-2.0/glib/ghook.h \
  /usr/include/glib-2.0/glib/ghostutils.h \
@@ -87,7 +84,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/glib-2.0/glib/gmappedfile.h \
  /usr/include/glib-2.0/glib/gmarkup.h \
  /usr/include/glib-2.0/glib/gmessages.h \
- /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/goption.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
@@ -120,7 +117,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/sofia-sip-1.12/sofia-sip/su_types.h \
  /usr/include/sofia-sip-1.12/sofia-sip/su_config.h \
  /usr/include/sofia-sip-1.12/sofia-sip/su_configure.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h ssc_media.h \
  /usr/include/glib-2.0/glib-object.h \
  /usr/include/glib-2.0/gobject/gbinding.h \
@@ -148,7 +145,6 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
  /usr/include/x86_64-linux-gnu/bits/uio.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
- /usr/include/x86_64-linux-gnu/bits/socket_type.h \
  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
  /usr/include/x86_64-linux-gnu/asm/socket.h \
  /usr/include/asm-generic/socket.h \
@@ -163,8 +159,6 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/features.h:
 
-/usr/include/stdc-predef.h:
-
 /usr/include/x86_64-linux-gnu/bits/predefs.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -175,7 +169,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -187,7 +181,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -210,8 +204,6 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
 
 /usr/include/stdlib.h:
 
@@ -241,8 +233,6 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/errno.h:
@@ -267,9 +257,9 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/glib-2.0/glib/gmacros.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -281,7 +271,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.7/include/float.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/float.h:
 
 /usr/include/glib-2.0/glib/gversionmacros.h:
 
@@ -351,8 +341,6 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/glib-2.0/glib/gmem.h:
 
-/usr/include/glib-2.0/glib/gnode.h:
-
 /usr/include/glib-2.0/glib/ghmac.h:
 
 /usr/include/glib-2.0/glib/gchecksum.h:
@@ -382,6 +370,8 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 /usr/include/glib-2.0/glib/gmarkup.h:
 
 /usr/include/glib-2.0/glib/gmessages.h:
+
+/usr/include/glib-2.0/glib/gnode.h:
 
 /usr/include/glib-2.0/glib/goption.h:
 
@@ -459,7 +449,7 @@ ssc_media.lo: ssc_media.c ../config.h /usr/include/stdio.h \
 
 /usr/include/sofia-sip-1.12/sofia-sip/su_configure.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdint.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -524,8 +514,6 @@ ssc_media.h:
 /usr/include/x86_64-linux-gnu/bits/uio.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
 /usr/include/x86_64-linux-gnu/bits/sockaddr.h:
 

@@ -26,7 +26,7 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the `ncurses' library (-lncurses). */
-/* #undef HAVE_LIBNCURSES */
+#define HAVE_LIBNCURSES 1
 
 /* libnice enabled */
 /* #undef HAVE_LIBNICE */
@@ -35,7 +35,7 @@
 #define HAVE_LIBPTHREAD 1
 
 /* Define to 1 if you have the `readline' library (-lreadline). */
-/* #undef HAVE_LIBREADLINE */
+#define HAVE_LIBREADLINE 1
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
@@ -47,10 +47,10 @@
 #define HAVE_PTHREAD_H 1
 
 /* Define to 1 if you have the <readline/history.h> header file. */
-/* #undef HAVE_READLINE_HISTORY_H */
+#define HAVE_READLINE_HISTORY_H 1
 
 /* Define to 1 if you have the <readline/readline.h> header file. */
-/* #undef HAVE_READLINE_READLINE_H */
+#define HAVE_READLINE_READLINE_H 1
 
 /* Define to 1 if sched.h has sched_getscheduler */
 #define HAVE_SCHED_GETSCHEDULER 1

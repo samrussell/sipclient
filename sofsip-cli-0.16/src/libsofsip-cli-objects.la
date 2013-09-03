@@ -14,7 +14,7 @@ library_names=''
 old_library='libsofsip-cli-objects.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' -lpthread'
+dependency_libs=' -lreadline -lncurses -lpthread'
 
 # Version information for libsofsip-cli-objects.
 current=
